@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../bootstrap-dist/css/bootstrap.css" />
+		<!--[if lt IE 9]>
+        <script src="../bootstrap-dist/js/html5shiv.min.js"></script>
+        <script src="../bootstrap-dist/js/respond.min.js"></script>
+        <![endif]-->
+	</head>
+
+	<body style="background-color: #5E5E5E; padding: 50px;">
+		<h2 class="page-header">警告框</h2>
+
+		<div class="container" style="background-color: #BCE8F1; padding: 50px;">
+			<div class="alert alert-success" role="alert">Well done! You successfully read this important alert message.</div>
+			<div class="alert alert-info" role="alert">Heads up! This alert needs your attention, but it's not super important.</div>
+			<div class="alert alert-warning" role="alert">Warning! Better check yourself, you're not looking too good.</div>
+			<div class="alert alert-danger" role="alert">Oh snap! Change a few things up and try submitting again.</div>
+		</div>
+		<h2 class="page-header">可关闭的警告框</h2>
+		<!--必须给 <button> 元素添加 data-dismiss="alert" 属性。-->
+		<div class="container" style="background-color: #BCE8F1; padding: 50px;">
+			<div class="alert alert-warning alert-dismissible" role="alert">
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<strong>Warning!</strong> Better check yourself, you're not looking too good.
+			</div>
+		</div>
+		<h2 class="page-header">警告框中的链接</h2>
+
+		<div class="container" style="background-color: #BCE8F1; padding: 50px;">
+
+			<div class="alert alert-success" role="alert">
+				<p>Well done! You successfully read
+					<a href="#" class="alert-link"> this important alert message.</a>
+				</p>
+			</div>
+			<div class="alert alert-info" role="alert">
+				<p>Heads up! This
+					<a href="#" class="alert-link"> alert needs your attention</a>,but it's not super important.</p>
+			</div>
+			<div class="alert alert-warning" role="alert">
+				<p>Warning! Better check yourself, you're
+					<a href="#" class="alert-link"> not looking too good.</a>
+				</p>
+			</div>
+			<div class="alert alert-danger" role="alert">
+				<p>Oh snap!
+					<a href="#" class="alert-link"> Change a few things up</a>and try submitting again.</p>
+			</div>
+
+	</body>
+
+</html>
+<script type="text/javascript" src="../bootstrap-dist/js/jquery.min.js"></script>
+<script type="text/javascript" src="../bootstrap-dist/js/bootstrap.js"></script>
