@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../bootstrap-dist/css/bootstrap.css" />
+		<!--[if lt IE 9]>
+        <script src="../bootstrap-dist/js/html5shiv.min.js"></script>
+        <script src="../bootstrap-dist/js/respond.min.js"></script>
+        <![endif]-->
+	</head>
+<h2 class="page-header">下拉菜单的应用</h2>
+	<body style="background-color: #C4E3F3; padding: 50px;">
+		
+				<div class="dropdown">
+					<a  id="dLabel" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Web前端
+						<span class="caret"></span>
+					</a>
+				
+				<ul class="dropdown-menu" aria-labelledby="dLabel">
+					<li><a href="#">HTML</a></li>
+					<li><a href="#">CSS</a></li>
+					<li><a href="#">JavaScript</a></li>
+					<li class="divider"></li>
+					<li><a href="#">AJAX</a></li>
+					<li><a href="#">PHP</a></li>
+					<li><a href="#">JQuery</a></li>
+				</ul>
+			</div>
+
+	</body>
+	<script type="text/javascript" src="../bootstrap-dist/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../bootstrap-dist/js/bootstrap.js"></script>
+	<script type="text/javascript">
+		$('#myDropdown').on('show.bs.dropdown', function() {
+			// do something…
+		})
+	</script>
+
+</html>

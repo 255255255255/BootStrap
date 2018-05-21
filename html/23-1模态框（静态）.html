@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="../bootstrap-dist/css/bootstrap.css" />
+		<script type="text/javascript" src="../bootstrap-dist/js/jquery.min.js"></script>
+		<script type="text/javascript" src="../bootstrap-dist/js/bootstrap.js"></script>
+		<!--[if lt IE 9]>
+        <script src="../bootstrap-dist/js/html5shiv.min.js"></script>
+        <script src="../bootstrap-dist/js/respond.min.js"></script>
+        <![endif]-->
+	</head>
+
+	<body style="background-color: #C4E3F3; padding: 50px;">
+		<!--静态模态框：初值为show-->
+		<div class="modal show" tabindex="-1" role="dialog">
+			 <!-- 弹出的模态框对话框   此可以决定模态框的大小和位置 ,通过添加modal-lg类改变大小 -->
+			<div class="modal-dialog">
+				 <!-- 弹出的模态内容部分 -->
+				<div class="modal-content">
+					<!-- （1）header -->
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Modal title</h4>
+					</div>
+					  <!-- （2）内容 input-->
+					<div class="modal-body">
+						<p>One fine body&hellip;</p>
+					</div>
+					 <!--（3）尾部 按钮 -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Save changes</button>
+					</div>
+				</div> <!-- 弹出模态内容部分结束 -->
+			</div><!--  弹出的模态框结束 -->
+		</div>
+
+	</body>
+
+</html>
